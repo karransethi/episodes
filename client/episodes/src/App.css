@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;    
+    
+}
+
+.app-body{
+  
+    color: aliceblue;
+    height: 100vh;
+}
+
+#navbar{
+text-align: center;
+position: sticky;
+top: 0;
+z-index: 1;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+ .nav_header{
+     text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
+  background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding: 10px 0;
+ }
+ a{
+     text-decoration: none;
+     color: inherit;
+ } a:hover{
+     text-decoration: none;
+     color: inherit;
+ }
+
+ .page{
+     margin-left: 80px;
+     margin-right: 80px;
+     margin-top: 40px;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap-reverse;
+ }
+
+ .page-posts{
+     flex: 0.7;
+    margin-right: 10px;
+
+ }
+
+ .page-form{
+     flex: 0.3;
+    margin-left: 40px;
+    margin-bottom: 10vw;
+ }
